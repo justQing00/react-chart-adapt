@@ -3,7 +3,10 @@ react chart adapt
 
 ### How to use
 ```javascript
-import { RadialChartAdapt, getEventPosition } from 'react-chart-adapt';
+import { RadialChartAdapt, getEventPosition, getPixelRatio } from 'react-chart-adapt';
+
+position = getEventPosition(event) // Relative position
+ratio = getPixelRatio(ctx) // ratio
 
 <RadialChartAdapt />
 
